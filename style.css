@@ -1,0 +1,19 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rectangle{
+    border-radius: 36.3px;
+    border: solid 7px rgba(241, 196, 15, 0.5);
+}
+
+.foodList{
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+.food{
+    border-bottom: solid 1.5px gray ;
+}
