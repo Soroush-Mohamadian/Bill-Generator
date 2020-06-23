@@ -10,7 +10,7 @@ body,html{
 }
 
 .foodList{
-    height: 65vh;
+    height: 62vh;
     overflow-y: scroll;
 }
 
