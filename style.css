@@ -38,7 +38,7 @@ body,html{
 
 .orderBtn{
     width: 95%;
-    height: 75%;
+    height: 5rem;
     color: white;
     background-color: chocolate;
     border-radius: 20px;
@@ -62,8 +62,11 @@ body,html{
     width: 39px;
 }
 .foodQuantity{
+    width: 70px;
     font-size: 25px;
     font-weight: 400;
+    border: none;
+    outline: none;
     
 }
 .fee, .singleFoodSum{
@@ -74,4 +77,31 @@ body,html{
 .descriptions, .prices{
     font-size: 18px; 
     font-weight: 500;
+}
+.singleFoodSum{
+
+}
+
+#singleFoodSum{
+    border: none;
+    outline: none;
+    width: 100px;
+    
+}
+
+.prices input{
+    border: none;
+    outline: none;
+    width: 100px;
+}
+
+.totalAmount input{
+    border: none;
+    outline: none;
+    width: 100px;
+}
+
+.addDiscountCode{
+    position: absolute;
+    width: 55px;
 }
